@@ -2,6 +2,8 @@
 
 ##UPDATE *oxygen_gudang* UNTUK OX_INVENTORY
 
+##update untuk pengguna serverpack full oxygen 4.0
+
 + Update fungsi CreateCallback pada oxygen_gudang untuk ox_inventory
 + Menghapus fungsi qb-inventory `TriggerEvent("inventory:client:SetCurrentStash", data.storagename)` karena sudah menggnakan export ox_inventory
 + Mengubah fungsi `SetStashMaxWeight` ke `RegisterStash` fungsi ox_inventoy 
